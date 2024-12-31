@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="clockin">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js"></script>
+
+  <!-- Configuração do Firebase -->
+  <script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyDZ16Juv8wi1HVazfpKbUrZx_N8ytvg4EY",
+        authDomain: "clockin-43713.firebaseapp.com",
+        projectId: "clockin-43713",
+        storageBucket: "clockin-43713.firebasestorage.app",
+        messagingSenderId: "179722915350",
+        appId: "1:179722915350:web:4ef52dea833d925f632f37",
+        fmeasurementId: "G-EEJ6W9Q7R3"
+    };
+
+    // Inicializa o Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <title>clockin</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
